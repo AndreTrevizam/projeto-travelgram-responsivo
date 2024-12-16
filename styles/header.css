@@ -1,0 +1,12 @@
+header {
+  background-color: var(--surface-color);
+
+  & #pfp {
+    max-width: 2.5rem;
+    border-radius: 50%;
+  }
+
+  & a:first-child {
+    margin-right: auto;
+  }
+}
