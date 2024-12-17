@@ -1,0 +1,48 @@
+.profile {
+  background-color: var(--surface-color);
+
+  & div > img {
+    max-width: 7.5rem;
+  }
+
+  & h1{
+    color: var(--text-color-primary);
+  }
+
+  & p {
+    font-size: var(--fs-base);
+    color: var(--text-color-secondary);
+  }
+
+  & div {
+    padding-bottom: 1rem;
+  }
+
+  & span {
+    font-size: var(--fs-base);
+    color: var(--text-color-secondary);
+  }
+
+  @media (width >= 80em) {
+    .container {
+      display: flex;
+
+      & > img {
+        margin-right: 2rem;
+        max-width: 11rem;
+      }
+
+      & > div {
+        max-width: 25rem;
+      }
+
+      & ul {
+        margin-left: auto;
+        justify-content: center;
+        padding-right: 7rem;
+      }
+    }
+  }
+
+}
+
