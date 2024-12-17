@@ -32,8 +32,7 @@
   --fs-lg: 1.25rem;
   --fs-xl: 2rem;
 
-  --py-xs: 1rem;
-  --py-sm: 1.25rem;
+  --py-sm: 1rem;
   --py-base: 2rem;
 
   --px-sm: 1rem;
@@ -91,10 +90,11 @@ img {
     --fs-lg: 1.25rem;
     --fs-xl: 2rem;
   
-    --py-sm: 1.25rem;
+    --py-xs: 1.25rem;
+    --py-sm: 2rem;
     --py-base: 2rem;
   
-    --px-sm: 1rem;
+    --px-sm: 1.25rem;
     --px-base: 2rem;
   }
 }
