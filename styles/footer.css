@@ -1,0 +1,23 @@
+footer {
+  & .container {
+    text-align: center;
+
+    & span {
+      font-size: var(--fs-base);
+      color: var(--text-color-secondary);
+    }
+
+    & a {
+      font-size: var(--fs-base);
+      cursor: pointer;
+    }
+  }
+
+  @media (width >= 80em) {
+    & .container {
+      display: flex;
+
+      justify-content: space-between;
+    }
+  }
+}
